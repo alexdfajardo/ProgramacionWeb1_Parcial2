@@ -103,3 +103,7 @@ footer{
     font-size: 22px ;
     
 }
+
+main{
+    background-image: url(./imagenes/body.jpg);
+}

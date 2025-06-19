@@ -99,3 +99,9 @@ footer{
     font-size: 22px ;
     
 }
+.premios {
+    font-size: 25px;
+}
+main{
+    background-image: url(./imagenes/body.jpg);
+}
