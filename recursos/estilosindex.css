@@ -1,0 +1,101 @@
+*{
+    background-color: black;
+    color: white;
+   
+    
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  
+}
+
+body{
+    margin:0;
+}
+
+span{
+    color: red;
+}
+
+header{
+    background: linear-gradient(180deg, rgba(20, 0, 3, 0.2) 0%, rgba(20, 0, 3, 0.9) 100%), url("./imagenes/header.jpg"),
+    url("") ;                   /*  doble imagen de fondo */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    text-shadow: 6px 6px 8px rgb(0, 0, 0);
+}
+
+.nav-flex {
+    max-width:fit-content;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    padding: 10px;
+    padding-inline: 0;
+    position: fixed;
+    width: 100%;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+}
+
+nav a {
+    text-decoration: none; 
+    margin-inline: 15px; 
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+h1,h2{
+    text-transform: uppercase;
+}
+
+.okupas{
+    font-size: 170px;
+    background-color: rgba(255, 255, 255, 0);
+  
+}
+
+section{
+    border-style: solid;
+    margin-top: 75px;
+    margin-inline: 15%;
+    padding-inline:10%;
+    padding-bottom: 2%;
+
+}
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-size: 25px;
+}
+
+footer{
+    border-top: 3px solid;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 22px ;
+    
+}
