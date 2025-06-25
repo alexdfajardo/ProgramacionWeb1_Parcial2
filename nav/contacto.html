@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <link rel="stylesheet" href="../recursos/estilosgeneral.css">
+    <link rel="stylesheet" href="../recursos/hamburguesa.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,20 +11,32 @@
     <title>CONTACTO</title>
 </head>
 <body>
-    <nav>
-        <ul class="nav-flex">
-           <li><a href="../index.html">I<span>n</span>icio</a></li>
-           <li><a href="./rodaje.html">R<span>o</span>daje</a></li>
-           <li><a href="./personajes.html">P<span>e</span>rsonajes</a></li>
-           <li><a href="./episodios.html">E<span>p</span>isodios</a></li>
-           <li><a href="./entrevistas.html">E<span>n</span>trevistas</a></li>
-           <li><a href="./curiosidades.html">C<span>u</span>riosidades</a></li>
-           <li><a href="./contacto.html">C<span>o</span>ntacto</a></li>
-        </ul>
-    </nav>
+    <div id="hamburguesa">
+           <a href="../index.html" class="ventanas">I<span>n</span>icio</a>
+           <a href="./rodaje.html" class="ventanas">R<span>o</span>daje</a>
+           <a href="./personajes.html" class="ventanas">P<span>e</span>rsonajes</a>
+           <a href="./episodios.html" class="ventanas">E<span>p</span>isodios</a>
+           <a href="./entrevistas.html" class="ventanas">E<span>n</span>trevistas</a>
+           <a href="./curiosidades.html" class="ventanas">C<span>u</span>riosidades</a>
+           <a href="./contacto.html" class="ventanas">C<span>o</span>ntacto</a>
+        
+    </div>
+    <div id="tapado"></div>
+     <header>
+        <nav >
+            <a href="#hamburguesa" id="abrir">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#e3e3e3"><path d="M120-680v-80h720v80H120Zm0 480v-80h720v80H120Zm0-240v-80h720v80H120Z"/></svg>
+            </a>
+            <a href="#" id="cerrar">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </a>
+        </nav>
+        <h1> C<span>O</span>NTACTO</h1>
+    </header>
+
+
 
       <main>
-         <h1>Contacto</h1>
           <section>
              
              <p class="contacto">

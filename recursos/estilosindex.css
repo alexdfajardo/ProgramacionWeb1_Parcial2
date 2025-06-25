@@ -1,5 +1,5 @@
 *{
-    background-color: black;
+    
     color: white;
    
     
@@ -18,50 +18,7 @@ span{
     color: red;
 }
 
-header{
-    background: linear-gradient(180deg, rgba(20, 0, 3, 0.2) 0%, rgba(20, 0, 3, 0.9) 100%), url("./imagenes/header.jpg"),
-    url("") ;                   /*  doble imagen de fondo */
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
 
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-    align-items: center;
-    text-shadow: 6px 6px 8px rgb(0, 0, 0);
-}
-
-.nav-flex {
-    max-width:fit-content;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-nav{
-    padding: 10px;
-    padding-inline: 0;
-    position: fixed;
-    width: 100%;
-    font-size: 30px;
-    text-transform: uppercase;
-    
-}
-
-nav a {
-    text-decoration: none; 
-    margin-inline: 15px; 
-    border-bottom-style: solid;
-    border-top-style: solid;
-}
-
-ul {
-    list-style-type: none;
-    padding-left: 0;
-}
 
 h1,h2{
     text-transform: uppercase;
@@ -70,6 +27,7 @@ h1,h2{
 .okupas{
     font-size: 170px;
     background-color: rgba(255, 255, 255, 0);
+    
   
 }
 
@@ -79,11 +37,13 @@ section{
     margin-inline: 15%;
     padding-inline:10%;
     padding-bottom: 2%;
+    background-color: black;
+    padding-top: 2%;
 
 }
 
 h2{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 p{
@@ -94,7 +54,7 @@ footer{
     border-top: 3px solid;
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-top: 80px;
+   background-color: black;
     text-align: center;
     font-size: 22px ;
     
@@ -104,4 +64,30 @@ footer{
 }
 main{
     background-image: url(./imagenes/body.jpg);
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+header{
+    display: flex;
+    background-image: url(./imagenes/header.jpg);
+  
+}
+
+header>nav>a{
+    
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+header>h1{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+nav{
+    padding-bottom: 0px;
+    
+}
+.video{
+    display: flex;
+    justify-content: center;
 }

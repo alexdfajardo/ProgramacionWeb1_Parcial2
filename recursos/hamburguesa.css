@@ -1,0 +1,105 @@
+nav {
+     left: 25px;
+     display: flex;
+     gap: 10px;
+     z-index: 999;
+     margin-top: 20px;
+     
+     
+}
+a {
+     cursor: pointer;
+     padding: 1rem;
+     text-decoration: none;  
+   
+    
+}
+.ventanas{
+    display: block;
+    text-align: left;
+    margin-bottom: 11%;
+    font-size: 30px;
+   color: white;
+   margin-inline: 20px;
+     font: 120px;
+     text-transform: uppercase;
+     border: 3px solid;
+     border-radius: 30px 0px 30px 1px;
+     background-color: black;
+   
+}
+
+#hamburguesa {
+    display:inline ;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 30px;
+    padding-top: 30px;
+  
+   
+}
+     
+#hamburguesa {
+     height: 100vh;
+     width: 400px;
+     position: fixed;
+     top: 10vh;
+     left: -1000px;
+     transition: right .7s ease;
+     background-image: url(./imagenes/fondo\ nav.jpg);
+    background-size: 100% 100%;
+}
+
+#hamburguesa:target {
+     left: 0;
+     z-index: 999;
+}
+        
+#cerrar {
+     display: none;
+}
+        
+#hamburguesa:target ~ header nav #abrir {
+     display: none;
+     
+}
+        
+#hamburguesa:target ~ header nav #cerrar {
+     display: inline-block;
+}
+
+#tapado {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 900;
+     background-color: rgba(0, 0, 0, 0);
+     opacity: 0;
+     transition: background-color 1s ease, opacity 0.5s ease;
+     pointer-events: none;
+}
+
+#hamburguesa:target ~ #tapado {
+     opacity: 1;
+     background-color: rgba(0, 0, 0, 0.621);
+     pointer-events: auto;
+
+    }
+
+header>h1{
+     margin: auto;
+     text-align: center;
+}
+
+
+main{
+     margin-top: 0px;
+}
+
+header{
+     display: flex;
+     margin-bottom: 0px;
+     background-color: black;
+}

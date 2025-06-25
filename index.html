@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <link rel="stylesheet" href="./recursos/estilosindex.css">
+    <link rel="stylesheet" href="../recursos/hamburguesa.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,26 +11,35 @@
     <title>OKUPAS</title>
 </head>
 <body>
-     <nav >
-         <ul class="nav-flex">
-            <li><a href="./index.html">I<span>n</span>icio</a></li>
-            <li><a href="./nav/rodaje.html">R<span>o</span>daje</a></li>
-            <li><a href="./nav/personajes.html">P<span>e</span>rsonajes</a></li>
-            <li><a href="./nav/episodios.html">E<span>p</span>isodios</a></li>
-            <li><a href="./nav/entrevistas.html">E<span>n</span>trevistas</a></li>
-            <li><a href="./nav/curiosidades.html">C<span>u</span>riosidades</a></li>
-            <li><a href="./nav/contacto.html">C<span>o</span>ntacto</a></li>
-         </ul>
-     </nav>
-
+ <div id="hamburguesa">
+           <a href="./index.html" class="ventanas">I<span>n</span>icio</a>
+           <a href="./nav/rodaje.html" class="ventanas">R<span>o</span>daje</a>
+           <a href="./nav/personajes.html" class="ventanas">P<span>e</span>rsonajes</a>
+           <a href="./nav/episodios.html" class="ventanas">E<span>p</span>isodios</a>
+           <a href="./nav/entrevistas.html" class="ventanas">E<span>n</span>trevistas</a>
+           <a href="./nav/curiosidades.html" class="ventanas">C<span>u</span>riosidades</a>
+           <a href="./nav/contacto.html" class="ventanas">C<span>o</span>ntacto</a>
+        
+    </div>
+    <div id="tapado"></div>
      <header>
-        <h1 class="okupas">O<span class="okupas">k</span>upas</h1>
-     </header>
+        <nav >
+            <a href="#hamburguesa" id="abrir">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#e3e3e3"><path d="M120-680v-80h720v80H120Zm0 480v-80h720v80H120Zm0-240v-80h720v80H120Z"/></svg>
+            </a>
+            <a href="#" id="cerrar">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </a>
+        </nav>
+         <h1 class="okupas">O<span class="okupas">k</span>upas</h1>
+    </header>
 
       <main>
           <section>
             <h2>"Por ahi me cansé de ser un chabón re sano..."</h2>
-             <iframe width="800" height="500" src="https://www.youtube.com/embed/ptb1H2hCkcA?si=0uZ6plU-NO3arnTF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             <div class="video">
+               <iframe width="800" height="500" src="https://www.youtube.com/embed/ptb1H2hCkcA?si=0uZ6plU-NO3arnTF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             </div>
              <p>
                GANADORA DE 3 PREMIOS MARTÍN FIERRO: <br> </p>
                <ul class="premios">
