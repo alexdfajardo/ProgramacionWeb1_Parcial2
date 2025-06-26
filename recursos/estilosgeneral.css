@@ -100,3 +100,41 @@ main{
     display: flex;
     align-items: center;
 }
+.secundarios>figure>img{
+    width: 250px;
+    height: 250px;
+    border: solid 3px;
+    border-radius: 80px 80px 80px 80px;
+}
+figcaption{
+    text-align: center;
+}
+article{
+    display: flex;
+    text-align: center;
+    
+}
+article>p{
+    
+    margin-inline: 20px;
+    padding: 20px;
+    
+}
+.bio{
+    border:solid 2px white;
+    background-color: rgb(85, 79, 79);
+}
+.clicaqui{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.clicaqui>article>h2{
+    margin-top: 80px;
+    padding:40px;
+}
+.error{
+    margin-top: 0px;
+    color:red;
+    background-color: black;
+}

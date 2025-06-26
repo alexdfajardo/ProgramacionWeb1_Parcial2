@@ -1,0 +1,43 @@
+.form-contacto {
+ width: 100%;
+    color: crimson;
+}
+.fondo-form {
+    margin: 30px 0;
+     width: 100%;
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+.form-contacto label {
+    font-size: 1.15rem;
+}
+.form-contacto input, 
+.form-contacto textarea {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: inherit;
+    border-width: 0;
+    border-bottom: 3px solid #f09bac;
+    background-color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.form-contacto input[type=submit] {
+    background-color: crimson;
+    color: white;
+    text-transform: uppercase;
+    border-width: 0;
+    border-radius: 3px;
+    padding: 15px;
+    margin-top: 25px;
+}
+.form-contacto {
+    display: inline;
+}
+label{
+    padding: 25px;
+}
