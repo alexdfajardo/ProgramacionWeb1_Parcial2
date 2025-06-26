@@ -1,6 +1,7 @@
 .form-contacto {
  width: 100%;
-    color: crimson;
+ font-family: "Oswald", sans-serif;
+
 }
 .fondo-form {
     margin: 30px 0;
@@ -9,7 +10,8 @@
     padding: 30px;
 }
 .form-contacto label {
-    font-size: 1.15rem;
+    font-size: 25px;
+    color: black;
 }
 .form-contacto input, 
 .form-contacto textarea {
@@ -21,23 +23,21 @@
     font-family: inherit;
     border-width: 0;
     border-bottom: 3px solid #f09bac;
-    background-color: white;
-    font-size: 1rem;
+    background-color: rgb(180, 178, 178);
+    font-size: 20px;
     line-height: 1.5rem;
 }
 
 .form-contacto input[type=submit] {
     background-color: crimson;
-    color: white;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     border-width: 0;
     border-radius: 3px;
     padding: 15px;
     margin-top: 25px;
 }
-.form-contacto {
+
+#formulario>div{
     display: inline;
-}
-label{
-    padding: 25px;
 }
